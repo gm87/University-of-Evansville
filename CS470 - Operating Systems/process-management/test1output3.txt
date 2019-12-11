@@ -1,0 +1,164 @@
+PID 0 running
+Ready queue: 
+Wait queue: 
+
+C 1 25
+PID 1 25 running with 10 left
+Ready queue: 
+Wait queue: 
+
+I
+PID 1 24 running with 9 left
+Ready queue: 
+Wait queue: 
+
+C 2 12
+PID 1 23 running with 8 left
+Ready queue: PID 2 12 
+Wait queue: 
+
+I
+PID 1 22 running with 7 left
+Ready queue: PID 2 12 
+Wait queue: 
+
+W 4
+Process 1 21 placed on wait queue
+PID 2 12 running with 10 left
+Ready queue: 
+Wait queue: PID 1 21 4 
+
+C 3 10
+PID 2 11 running with 9 left
+Ready queue: PID 3 10 
+Wait queue: PID 1 21 4 
+
+I
+PID 2 10 running with 8 left
+Ready queue: PID 3 10 
+Wait queue: PID 1 21 4 
+
+E 4
+Process 1 placed on ready queue
+PID 2 9 running with 7 left
+Ready queue: PID 3 10 PID 1 21 
+Wait queue: 
+
+I
+PID 2 8 running with 6 left
+Ready queue: PID 3 10 PID 1 21 
+Wait queue: 
+
+I
+PID 2 7 running with 5 left
+Ready queue: PID 3 10 PID 1 21 
+Wait queue: 
+
+I
+PID 2 6 running with 4 left
+Ready queue: PID 3 10 PID 1 21 
+Wait queue: 
+
+I
+PID 2 5 running with 3 left
+Ready queue: PID 3 10 PID 1 21 
+Wait queue: 
+
+C 5 6
+PID 2 4 running with 2 left
+Ready queue: PID 3 10 PID 1 21 PID 5 6 
+Wait queue: 
+
+C 6 3
+PID 2 3 running with 1 left
+Ready queue: PID 3 10 PID 1 21 PID 5 6 PID 6 3 
+Wait queue: 
+
+W 7
+Process 2 2 placed on ready queue
+Process 3 10 placed on wait queue
+PID 1 21 running with 10 left
+Ready queue: PID 5 6 PID 6 3 PID 2 2 
+Wait queue: PID 3 10 7 
+
+I
+PID 1 20 running with 9 left
+Ready queue: PID 5 6 PID 6 3 PID 2 2 
+Wait queue: PID 3 10 7 
+
+W 5
+Process 1 19 placed on wait queue
+PID 5 6 running with 10 left
+Ready queue: PID 6 3 PID 2 2 
+Wait queue: PID 3 10 7 PID 1 19 5 
+
+I
+PID 5 5 running with 9 left
+Ready queue: PID 6 3 PID 2 2 
+Wait queue: PID 3 10 7 PID 1 19 5 
+
+I
+PID 5 4 running with 8 left
+Ready queue: PID 6 3 PID 2 2 
+Wait queue: PID 3 10 7 PID 1 19 5 
+
+I
+PID 5 3 running with 7 left
+Ready queue: PID 6 3 PID 2 2 
+Wait queue: PID 3 10 7 PID 1 19 5 
+
+E 7
+Process 3 placed on ready queue
+PID 5 2 running with 6 left
+Ready queue: PID 6 3 PID 2 2 PID 3 10 
+Wait queue: PID 1 19 5 
+
+I
+PID 5 1 running with 5 left
+Ready queue: PID 6 3 PID 2 2 PID 3 10 
+Wait queue: PID 1 19 5 
+
+I
+Process 5 0 terminated
+PID 6 3 running with 10 left
+Ready queue: PID 6 3 PID 2 2 PID 3 10 
+Wait queue: PID 1 19 5 
+
+E 5
+Process 1 placed on ready queue
+PID 6 2 running with 9 left
+Ready queue: PID 6 2 PID 2 2 PID 3 10 PID 1 19 
+Wait queue: 
+
+I
+PID 6 1 running with 8 left
+Ready queue: PID 6 1 PID 2 2 PID 3 10 PID 1 19 
+Wait queue: 
+
+I
+Process 6 0 terminated
+Process 6 0 terminatedPID 2 2 running with 10 left
+Ready queue: PID 2 2 PID 3 10 PID 1 19 
+Wait queue: 
+
+W 3
+Process 2 1 placed on wait queue
+PID 3 10 running with 10 left
+Ready queue: PID 1 19 
+Wait queue: PID 2 1 3 
+
+I
+PID 3 9 running with 9 left
+Ready queue: PID 1 19 
+Wait queue: PID 2 1 3 
+
+I
+PID 3 8 running with 8 left
+Ready queue: PID 1 19 
+Wait queue: PID 2 1 3 
+
+X
+PID 3 8 running with 8 left
+Ready queue: PID 1 19 
+Wait queue: PID 2 1 3 
+

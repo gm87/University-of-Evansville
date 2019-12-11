@@ -1,0 +1,28 @@
+#include <iostream>
+#include <unistd.h>
+#include <string>
+
+#define MAX_LINE 80 /* Maximum length command */
+
+int main(void)
+{
+  using namespace std;
+  
+  string str; /* Command line arguments */
+  int should_run = 1; /* flag to determine when to exit program */
+  
+  while (should_run) {
+    cout << "osh>";
+    cin.getline(str, MAX_LINE);
+    cout << str << endl;
+
+    /**
+     * After reading user input, the steps are:
+     * (1) fork a child process using fork()
+     * (2) the child process will invoke execvp()
+     * (3) if command included &, parent will invoke wait()
+     */
+  }
+
+  return 0;
+}
