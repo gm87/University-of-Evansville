@@ -1,0 +1,3 @@
+Redirected cout 
+Redirected cout 
+Still redirected
