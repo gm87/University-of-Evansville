@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="42t-OK-nAa">
+    <device id="retina4_7" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Menu-->
+        <scene sceneID="SDW-2Y-nds">
+            <objects>
+                <viewController id="42t-OK-nAa" customClass="Menu" customModule="poker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oPr-C1-x1Z">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Casino-poker-chips-on-green-felt-background-artificial-intelligence-shutterstock-658269847-1068x601" translatesAutoresizingMaskIntoConstraints="NO" id="6MN-rG-0Sr">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cool Kids Poker" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="flN-lq-zgV">
+                                <rect key="frame" x="20" y="20" width="262" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zwG-uZ-hzt">
+                                <rect key="frame" x="20" y="92" width="143" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="New Game">
+                                    <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BV1-FR-VrT" kind="presentation" modalTransitionStyle="coverVertical" id="HSc-LU-yGH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="zwG-uZ-hzt" firstAttribute="top" secondItem="flN-lq-zgV" secondAttribute="bottom" constant="25" id="49n-mk-HQO"/>
+                            <constraint firstItem="6MN-rG-0Sr" firstAttribute="bottom" secondItem="3yF-xE-zuS" secondAttribute="bottom" id="89s-gg-b48"/>
+                            <constraint firstItem="6MN-rG-0Sr" firstAttribute="trailing" secondItem="3yF-xE-zuS" secondAttribute="trailing" id="GbE-tz-dl1"/>
+                            <constraint firstItem="6MN-rG-0Sr" firstAttribute="top" secondItem="3yF-xE-zuS" secondAttribute="top" id="PPx-uh-8VC"/>
+                            <constraint firstItem="zwG-uZ-hzt" firstAttribute="leading" secondItem="3yF-xE-zuS" secondAttribute="leading" constant="20" id="ZcC-IQ-syz"/>
+                            <constraint firstItem="flN-lq-zgV" firstAttribute="top" secondItem="3yF-xE-zuS" secondAttribute="top" constant="20" id="kvI-gg-kH9"/>
+                            <constraint firstItem="flN-lq-zgV" firstAttribute="leading" secondItem="3yF-xE-zuS" secondAttribute="leading" constant="20" id="q0c-kE-pds"/>
+                            <constraint firstItem="6MN-rG-0Sr" firstAttribute="leading" secondItem="3yF-xE-zuS" secondAttribute="leading" id="vh7-U6-BoZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3yF-xE-zuS"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ruQ-2R-p2P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-588.75562218890559" y="117.59999999999999"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="poker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qDL-er-2kW">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqZ-DA-wuL">
+                                <rect key="frame" x="608" y="3" width="39" height="30"/>
+                                <state key="normal" title="Menu">
+                                    <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="42t-OK-nAa" kind="presentation" id="QrL-zf-MMl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="MqZ-DA-wuL" firstAttribute="top" secondItem="4qk-I5-YsI" secondAttribute="top" constant="3" id="73I-uA-yBg"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="bottom" secondItem="qDL-er-2kW" secondAttribute="bottom" id="WDa-SG-5Fx"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="qDL-er-2kW" secondAttribute="trailing" id="cmE-X3-crk"/>
+                            <constraint firstItem="4qk-I5-YsI" firstAttribute="trailing" secondItem="MqZ-DA-wuL" secondAttribute="trailing" constant="20" id="eDj-Cv-bVy"/>
+                            <constraint firstItem="qDL-er-2kW" firstAttribute="leading" secondItem="4qk-I5-YsI" secondAttribute="leading" id="mzI-72-Gxb"/>
+                            <constraint firstItem="qDL-er-2kW" firstAttribute="top" secondItem="4qk-I5-YsI" secondAttribute="top" id="xRT-zb-Ia3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="130"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Casino-poker-chips-on-green-felt-background-artificial-intelligence-shutterstock-658269847-1068x601" width="1068" height="601"/>
+    </resources>
+</document>

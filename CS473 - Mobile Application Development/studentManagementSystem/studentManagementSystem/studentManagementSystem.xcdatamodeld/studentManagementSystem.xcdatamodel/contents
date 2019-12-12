@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19A583" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Course" representedClassName="Course" syncable="YES" codeGenerationType="class">
+        <attribute name="days" optional="YES" attributeType="String"/>
+        <attribute name="depCode" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="num" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Event" representedClassName="Event" codeGenerationType="class">
+        <attribute name="timestamp" optional="YES" attributeType="Date"/>
+        <userInfo/>
+    </entity>
+    <entity name="Professor" representedClassName="Professor" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fName" optional="YES" attributeType="String"/>
+        <attribute name="homeAddr" optional="YES" attributeType="String"/>
+        <attribute name="lName" optional="YES" attributeType="String"/>
+        <attribute name="offAddr" optional="YES" attributeType="String"/>
+        <attribute name="photo" optional="YES" attributeType="Binary"/>
+    </entity>
+    <entity name="Student" representedClassName="Student" syncable="YES" codeGenerationType="class">
+        <attribute name="addr" optional="YES" attributeType="String"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="fName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="lName" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+        <attribute name="photo" optional="YES" attributeType="Binary"/>
+    </entity>
+    <elements>
+        <element name="Event" positionX="261" positionY="189" width="128" height="58"/>
+        <element name="Student" positionX="261" positionY="198" width="128" height="148"/>
+        <element name="Professor" positionX="270" positionY="207" width="128" height="133"/>
+        <element name="Course" positionX="288" positionY="216" width="128" height="118"/>
+    </elements>
+</model>
