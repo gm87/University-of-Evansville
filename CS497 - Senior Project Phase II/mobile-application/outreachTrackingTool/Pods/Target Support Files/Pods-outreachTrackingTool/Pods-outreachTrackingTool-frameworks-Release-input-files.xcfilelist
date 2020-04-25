@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-outreachTrackingTool/Pods-outreachTrackingTool-frameworks.sh
+${BUILT_PRODUCTS_DIR}/MonthYearPicker/MonthYearPicker.framework
+${BUILT_PRODUCTS_DIR}/OktaJWT/OktaJWT.framework
+${BUILT_PRODUCTS_DIR}/OktaOidc/OktaOidc.framework

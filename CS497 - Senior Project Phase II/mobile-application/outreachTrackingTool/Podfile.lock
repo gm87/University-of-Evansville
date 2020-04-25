@@ -1,0 +1,24 @@
+PODS:
+  - MonthYearPicker (3.0.0)
+  - OktaJWT (2.0.1)
+  - OktaOidc (3.5.2)
+
+DEPENDENCIES:
+  - MonthYearPicker
+  - OktaJWT
+  - OktaOidc
+
+SPEC REPOS:
+  trunk:
+    - MonthYearPicker
+    - OktaJWT
+    - OktaOidc
+
+SPEC CHECKSUMS:
+  MonthYearPicker: 59cfa26c5bfbbc52ef147360d9846c349f578991
+  OktaJWT: 81e532a244e5cf3d83693bd3760b1f2f6c1c82fd
+  OktaOidc: 1ecd792b4187912e5ec411f9514e059b60981769
+
+PODFILE CHECKSUM: e8e09d2ad76d78bcb59f7f71ba15fb4b6642d30e
+
+COCOAPODS: 1.8.4
