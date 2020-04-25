@@ -1,0 +1,9 @@
+C:\Users\gmatt\source\repos\ViewMessages\ViewMessages\bin\Debug\ViewMessages.exe.config
+C:\Users\gmatt\source\repos\ViewMessages\ViewMessages\bin\Debug\ViewMessages.exe
+C:\Users\gmatt\source\repos\ViewMessages\ViewMessages\bin\Debug\ViewMessages.pdb
+C:\Users\gmatt\source\repos\ViewMessages\ViewMessages\obj\Debug\ViewMessages.csprojAssemblyReference.cache
+C:\Users\gmatt\source\repos\ViewMessages\ViewMessages\obj\Debug\ViewMessages.Form1.resources
+C:\Users\gmatt\source\repos\ViewMessages\ViewMessages\obj\Debug\ViewMessages.Properties.Resources.resources
+C:\Users\gmatt\source\repos\ViewMessages\ViewMessages\obj\Debug\ViewMessages.csproj.GenerateResource.cache
+C:\Users\gmatt\source\repos\ViewMessages\ViewMessages\obj\Debug\ViewMessages.exe
+C:\Users\gmatt\source\repos\ViewMessages\ViewMessages\obj\Debug\ViewMessages.pdb

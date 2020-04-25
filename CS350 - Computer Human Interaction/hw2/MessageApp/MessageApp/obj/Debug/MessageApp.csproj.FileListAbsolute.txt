@@ -1,0 +1,9 @@
+C:\Users\gmatt\source\repos\MessageApp\MessageApp\bin\Debug\MessageApp.exe.config
+C:\Users\gmatt\source\repos\MessageApp\MessageApp\bin\Debug\MessageApp.exe
+C:\Users\gmatt\source\repos\MessageApp\MessageApp\bin\Debug\MessageApp.pdb
+C:\Users\gmatt\source\repos\MessageApp\MessageApp\obj\Debug\MessageApp.csprojAssemblyReference.cache
+C:\Users\gmatt\source\repos\MessageApp\MessageApp\obj\Debug\MessageApp.Form1.resources
+C:\Users\gmatt\source\repos\MessageApp\MessageApp\obj\Debug\MessageApp.Properties.Resources.resources
+C:\Users\gmatt\source\repos\MessageApp\MessageApp\obj\Debug\MessageApp.csproj.GenerateResource.cache
+C:\Users\gmatt\source\repos\MessageApp\MessageApp\obj\Debug\MessageApp.exe
+C:\Users\gmatt\source\repos\MessageApp\MessageApp\obj\Debug\MessageApp.pdb

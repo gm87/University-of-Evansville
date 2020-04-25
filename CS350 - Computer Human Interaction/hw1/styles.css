@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    background-color: skyblue;
+}
+
+#wrapper {
+    margin: 0 10%;
+    color: black;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+#submitBtn {
+    background-color: #a3bc3b;
+    color: white;
+    width: 100%;
+    padding: 5px;
+}
+
+.message {
+    font-family: 'Courier New', Courier, monospace;
+    overflow-wrap: break-word;
+}
+
+input {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: lightslategray;
+    padding: 4px 0;
+    color: white;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    text-align: center;
+    font-size: 300%;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkcyan;
+    text-align: center;
+    font-size: small;
+}
