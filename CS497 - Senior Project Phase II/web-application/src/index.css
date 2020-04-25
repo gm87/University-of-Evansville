@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  background-color: #cdcdcd;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.pagewrapper {margin: 0 10%; background-color: #ffffff; min-height: 600px; padding: 0 1%;}
+
+.pageheader1 {
+  text-align: center;
+}
+.pagecontentHome1 {
+  text-align: center;
+  width: 60%;
+  margin: 0 20%;
+}
+
+.homeLogo {
+  text-align: center;
+}
+
+.homeLogo svg {
+  margin-top: 5%;
+}
+
+.homeContent1 {
+  margin: 32px;
+}
+
+.marketingSpaceBottom {
+  margin-bottom: 14px;
+}
+
+.homeImage1 {
+  margin-top: 160px;
+}
+
+.elementSeperator {
+  margin-bottom: 20px;
+}
+.pageHeaderTitle {
+  display: inline-block;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  color: #0083a9;;
+  width: 100%;
+  margin: 40px 0 0 0;
+}
+.itemMarginBottom {
+  margin-bottom: 14px;
+  display: inline-block;
+}

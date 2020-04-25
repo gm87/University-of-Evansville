@@ -1,0 +1,192 @@
+.candidateDetailContainer {
+    padding-top: 24px;
+}
+
+.candidateDetailContainer .sectionContainer {
+    margin-top: 24px;
+}
+
+.candidateDetailContainer .sectionContainer .header {
+    color: #0083a9;
+    font-weight: normal;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.candidateDetailContainer .sectionContainer .subHeader {
+    color: #A9A9A9;
+    margin: 15px 0 0 0;
+    font-weight: normal;
+    font-size: normal;
+}
+
+.candidateDetailHeaderContainer {
+    text-align: center;
+}
+
+.candidateDetailHeaderContainer .candidateName {
+    color: #0083a9;
+    font-weight: normal;
+    font-size: x-large;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.candidateDetailHeaderContainer .menuBtnContainer {
+    background: #ffc629;
+    padding: 6px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    cursor: pointer;
+    float: right;
+}
+
+.candidateDetailHeaderContainer .menuBtnContainer .menuBtn {
+    cursor: pointer;
+}
+
+.candidateDetailfNameInput {
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+.candidateDetaillNameInput {
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    margin-left: 8px;
+}
+
+.candidateDetailNameInput .cancelBtn {
+    margin-left: 8px;
+    color: #a41e22;
+}
+
+.candidateDetailNameInput .cardSubmit {
+    margin-left: 8px;
+    color: #a3bc3b;
+}
+
+.editBtnDropdown {
+    margin-top: 6px;
+    position: absolute;
+    right: 13.2%;
+    width: 10%;
+}
+
+.editBtnDropdown span {
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 12px 16px;
+    background-color:#a3bc3b;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.sectionBody {
+    margin-left: 12px;
+}
+
+.noteInput {
+    width: 90%;
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    float: left;
+    margin-bottom: 48px;
+}
+
+.submitNote {
+    background-color: #a3bc3b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 9%;
+    margin-top: 6px;
+    float: right;
+}
+
+
+.noteLightContainer {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.noteDarkContainer {
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.noteLightContainer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.noteDarkContainer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.noteIconContainer img {
+    float: left;
+    max-width: 40px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.noteMessageContainer {
+    display: block;
+}
+
+.noteCreatedContainer {
+    float: left;
+}
+
+.noteCreatedDate {
+    margin-left: 10px;
+    font-size: 13px;
+    color: #808080;
+}
+
+.noteBtnsContainer {
+    float: right;
+}
+
+.noteDeleteBtn {
+    color: #a41e22;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.noteEditBtn {
+    font-size: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.sectionSpacer {
+    color: white;
+    padding-top: 100px;
+}

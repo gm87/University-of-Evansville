@@ -1,0 +1,35 @@
+.Nav {
+    background-color: #015772;
+    overflow: hidden;
+  }
+
+.Flex {
+  width: 50%;
+  background-color: red;
+}
+  
+.Nav {
+  margin: 0 10%;
+  padding: 0 30px;
+}
+  /* Style the links inside the navigation bar */
+  .Nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .Nav a:hover {
+    background-color: #35839b;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .Nav a.active {
+    background-color: #a3bc3b;
+    color: white;
+  }

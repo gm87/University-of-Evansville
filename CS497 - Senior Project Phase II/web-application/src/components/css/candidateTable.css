@@ -1,0 +1,23 @@
+.candidatesTable {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.candidatesTable td {
+    padding: 4px 0 4px 4px;
+}
+
+.candidatesTable th {
+    background-color: #636363;
+    padding: 4px 0;
+    color: white;
+}
+
+.candidatesTable tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.candidatesMargin5px {
+    margin: 5px 0;
+    display: inline-block;
+}
