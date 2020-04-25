@@ -1,0 +1,462 @@
+[
+    {
+        "text": "University of North Carolina, Chapel Hill, NC",
+        "category": "institution"
+    },
+    {
+        "text": "Duke University (Continuing Studies), Durham, NC",
+        "category": "institution"
+    },
+    {
+        "text": "Technical Community College, Durham, NO",
+        "category": "institution"
+    },
+    {
+       "text": "University of Evansville",
+       "category": "institution"
+    },
+    {
+       "text": "Harrison College",
+       "category": "institution"
+    },
+    {
+       "text": "Ancilla College",
+       "category": "institution"
+    },
+    {
+       "text": "Anderson University",
+       "category": "institution"
+    },
+    {
+       "text": "Ball State University",
+       "category": "institution"
+    },
+    {
+       "text": "Bethel College",
+       "category": "institution"
+    },
+    {
+       "text": "Butler University",
+       "category": "institution"
+    },
+    {
+       "text": "DePauw University",
+       "category": "institution"
+    },
+    {
+       "text": "Earlham College",
+       "category": "institution"
+    },
+    {
+       "text": "Franklin College",
+       "category": "institution"
+    },
+    {
+       "text": "Goshen College",
+       "category": "institution"
+    },
+    {
+       "text": "Hanover College",
+       "category": "institution"
+    },
+    {
+       "text": "Huntington University",
+       "category": "institution"
+    },
+    {
+       "text": "Indiana Institute of Technology",
+       "category": "institution"
+    },
+    {
+       "text": "Indiana State University",
+       "category": "institution"
+    },
+    {
+       "text": "Indiana University Bloomington",
+       "category": "institution"
+    },
+    {
+       "text": "Indiana University - Purdue University Indianapolis",
+       "category": "institution"
+    },
+    {
+       "text": "IUPUI",
+       "category": "institution"
+    },
+    {
+       "text": "Purdue University",
+       "category": "institution"
+    },
+    {
+       "text": "Saint Mary's College",
+       "category": "institution"
+    },
+    {
+       "text": "Taylor University",
+       "category": "institution"
+    },
+    {
+       "text": "University of Indianapolis",
+       "category": "institution"
+    },
+    {
+       "text": "University of Southern Indiana",
+       "category": "institution"
+    },
+    {
+       "text": "Valparaiso University",
+       "category": "institution"
+    },
+    {
+       "text": "Vincennes University",
+       "category": "institution"
+    },
+    {
+       "text": "Wabash College",
+       "category": "institution"
+    },
+    {
+       "text": "Purdue University",
+       "category": "institution"
+    },
+    {
+       "text": "University of Notre Dame",
+       "category": "institution"
+    },
+    {
+        "text": "Pittsburgh Institute of Mortuary Science",
+        "category": "institution"
+    },
+    {
+        "text": "Hussian School of Art",
+        "category": "institution"
+    },
+    {
+        "text": "CERTIFICATION, PARALEGAL STUDIES",
+        "category": "field"
+    },
+    {
+        "text": "Assoclate In Applied Sclence degree, Paralegal Technology",
+        "category": "field"
+    },
+    {
+       "text": "Computer Science",
+       "category": "field"
+    },
+    {
+       "text": "Civil Engineering",
+       "category": "field"
+    },
+    {
+       "text": "Environmental Science",
+       "category": "field"
+    },
+    {
+       "text": "Education",
+       "category": "field"
+    },
+    {
+       "text": "Psychology",
+       "category": "field"
+    },
+    {
+       "text": "Communication",
+       "category": "field"
+    },
+    {
+       "text": "Marketing",
+       "category": "field"
+    },
+    {
+       "text": "Creative Writing",
+       "category": "field"
+    },
+    {
+       "text": "Nursing",
+       "category": "field"
+    },
+    {
+       "text": "Accounting",
+       "category": "field"
+    },
+    {
+       "text": "Archaeology",
+       "category": "field"
+    },
+    {
+       "text": "Actuarial Science",
+       "category": "field"
+    },
+    {
+       "text": "Art",
+       "category": "field"
+    },
+    {
+       "text": "Art History",
+       "category": "field"
+    },
+    {
+       "text": "Athletic Training",
+       "category": "field"
+    },
+    {
+       "text": "Biochemistry",
+       "category": "field"
+    },
+    {
+       "text": "Biology",
+       "category": "field"
+    },
+    {
+       "text": "British Studies",
+       "category": "field"
+    },
+    {
+       "text": "Business",
+       "category": "field"
+    },
+    {
+       "text": "Chemistry",
+       "category": "field"
+    },
+    {
+       "text": "Civil Engineering",
+       "category": "field"
+    },
+    {
+       "text": "Classical Studies",
+       "category": "field"
+    },
+    {
+       "text": "Clinical Laboratory Science",
+       "category": "field"
+    },
+    {
+       "text": "Cognitive Science",
+       "category": "field"
+    },
+    {
+       "text": "Creative Writing",
+       "category": "field"
+    },
+    {
+       "text": "Criminal Justice",
+       "category": "field"
+    },
+    {
+       "text": "Economics",
+       "category": "field"
+    },
+    {
+       "text": "Computer Engineering",
+       "category": "field"
+    },
+    {
+       "text": "Environmental Administration",
+       "category": "field"
+    },
+    {
+       "text": "Ethics",
+       "category": "field"
+    },
+    {
+       "text": "Exercise Science",
+       "category": "field"
+    },
+    {
+       "text": "Finance",
+       "category": "field"
+    },
+    {
+       "text": "Global Business",
+       "category": "field"
+    },
+    {
+       "text": "Health Services Administration",
+       "category": "field"
+    },
+    {
+       "text": "History",
+       "category": "field"
+    },
+    {
+       "text": "Leadership",
+       "category": "field"
+    },
+    {
+       "text": "Legal Studies",
+       "category": "field"
+    },
+    {
+       "text": "Literature",
+       "category": "field"
+    },
+    {
+       "text": "Logistics and Supply Chain Management",
+       "category": "field"
+    },
+    {
+       "text": "Management",
+       "category": "field"
+    },
+    {
+       "text": "Mathematics",
+       "category": "field"
+    },
+    {
+       "text": "Mechanical Engineering",
+       "category": "field"
+    },
+    {
+       "text": "Music",
+       "category": "field"
+    },
+    {
+       "text": "Neuroscience",
+       "category": "field"
+    },
+    {
+       "text": "Philosophy",
+       "category": "field"
+    },
+    {
+       "text": "Physical Therapy",
+       "category": "field"
+    },
+    {
+       "text": "Physician Assistant",
+       "category": "field"
+    },
+    {
+       "text": "Physics",
+       "category": "field"
+    },
+    {
+       "text": "Political Science",
+       "category": "field"
+    },
+    {
+       "text": "Psychology",
+       "category": "field"
+    },
+    {
+       "text": "Public Health",
+       "category": "field"
+    },
+    {
+       "text": "Public Service Administration",
+       "category": "field"
+    },
+    {
+       "text": "Religion",
+       "category": "field"
+    },
+    {
+       "text": "Sociology",
+       "category": "field"
+    },
+    {
+       "text": "Statistics",
+       "category": "field"
+    },
+    {
+       "text": "Data Science",
+       "category": "field"
+    },
+    {
+       "text": "Theatre",
+       "category": "field"
+    },
+    {
+        "text": "Graduated with a 3.9 GPA.",
+        "category": "summary"
+    },
+    {
+        "text": "Graduated suma cum laude.",
+        "category": "summary"
+    },
+    {
+        "text": "President of the Engineer's Society",
+        "category": "summary"
+    },
+    {
+        "text": "GPA: 3.75",
+        "category": "summary"
+    },
+    {
+        "text": "American Bar Assoclation-approved Paralegal Certification",
+        "category": "summary"
+    },
+    {
+        "text": "Coursework included real property law, which encompassed concurrent estates.",
+        "category": "summary"
+    },
+    {
+        "text": "condos and co-ops. easements. covenants. title issues real astate contracts, deeds.",
+        "category": "summary"
+    },
+    {
+        "text": "real estate finance. title exams. and insurance",
+        "category": "summary"
+    },
+    {
+        "text": "academic honor roll",
+        "category": "summary"
+    },
+    {
+        "text": "member of sigma sigma sigma",
+        "category": "summary"
+    },
+    {
+        "text": "software engineering",
+        "category": "summary"
+    },
+    {
+        "text": "databases",
+        "category": "summary"
+    },
+    {
+        "text": "active member of the school library involved in cataloging over 200 books",
+        "category": "summary"
+    },
+    {
+        "text": "President of the Art and Design Club",
+        "category": "summary"
+    },
+    {
+        "text": "95% on all presentation based work through the degree",
+        "category": "summary"
+    },
+    {
+        "text": "empirical dissertation with research and focus groups",
+        "category": "summary"
+    },
+    {
+        "text": "minor: mathematics",
+        "category": "summary"
+    },
+    {
+        "text": "program included independent study of Advanced Accounting Theory, Financial Statement Analysis, and Tax Law",
+        "category": "summary"
+    },
+    {
+        "text": "Thesis: Impacts of Economic Recovery",
+        "category": "summary"
+    },
+    {
+        "text": "Dean's List",
+        "category": "summary"
+    },
+    {
+        "text": "Awarded a scholarship from the Financial Planning Association of NJ",
+        "category": "summary"
+    },
+    {
+        "text": "Financed 80% of school expenses by working (55 hrs/wk) while pursuing degree at full-time status",
+        "category": "summary"
+    },
+    {
+        "text": "Recognized on the Dean's List for academic excellence in two semesters",
+        "category": "summary"
+    }
+]
